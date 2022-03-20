@@ -1,6 +1,6 @@
 {
   "editor.fontSize": 17,
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "off",
   "editor.tabSize": 1,
   "editor.wordWrap": "on",
   "terminal.integrated.fontSize": 14,
