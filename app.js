@@ -1,8 +1,40 @@
 
+const months = [
+'January',
+`Feb`,
+`March`,
+`April`,
+`May`,
+`June`,
+`July`,
+`August`,
+`September`,
+`October`,
+`November`,
+`December`,
+];
+
+const days = [
+ `Sunday`,
+ `Monday`,
+ `Tuesday`,
+ `Wednesday`,
+ `Thursday`,
+ `Friday`,
+ `Saturday`,
+];
+
+const date = new Date();
+const month = date.getMonth();
+console.log(months[month]);
+
+const day = date.getDay();
+console.log(days[day]);
+
+console.log(date.getDate());
+console.log(date.getFullYear());
 
 
-const people = [
-  {neame: 'bob', age:20, position:'developer'}
-  {neame: 'stefan', age:30, position:'gornik'}
-  {neame: 'andrzej', age:40, position:'prezydent'}
-]
+const sentence = `${days[day]} ${date.getDate()} ${months[month]} ${date.getFullYear()} `
+
+document.body.innerHTML = sentence
